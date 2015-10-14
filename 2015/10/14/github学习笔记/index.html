@@ -7,12 +7,12 @@
     
 
     <title>
-      Github学习笔记 | BOB&#39;s Playground 
+      Github学习笔记 | PocketSDK 
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
-      <meta name="author" content="BOB">
+      <meta name="author" content="Pocket Games">
     
     
       <meta name="description" content="这是摘要。">
@@ -20,16 +20,16 @@
 
     <meta name="description" content="这是摘要。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Github学习笔记 | BOB's Playground">
-<meta property="og:url" content="http://yoursite.com/2015/10/13/github学习笔记/index.html">
-<meta property="og:site_name" content="BOB's Playground">
+<meta property="og:title" content="Github学习笔记 | PocketSDK">
+<meta property="og:url" content="http://yoursite.com/2015/10/14/github学习笔记/index.html">
+<meta property="og:site_name" content="PocketSDK">
 <meta property="og:description" content="这是摘要。">
 <meta property="og:image" content="http://www.liaoxuefeng.com/files/attachments/0013849088235627813efe7649b4f008900e5365bb72323000/0">
 <meta property="og:image" content="http://www.liaoxuefeng.com/files/attachments/001384909115478645b93e2b5ae4dc78da049a0d1704a41000/0">
 <meta property="og:image" content="http://www.liaoxuefeng.com/files/attachments/00138490913052149c4b2cd9702422aa387ac024943921b000/0">
-<meta property="og:updated_time" content="2015-10-13T08:46:40.000Z">
+<meta property="og:updated_time" content="2015-10-14T03:24:46.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Github学习笔记 | BOB's Playground">
+<meta name="twitter:title" content="Github学习笔记 | PocketSDK">
 <meta name="twitter:description" content="这是摘要。">
     
     
@@ -60,16 +60,16 @@
     <div class="panel-main__content">
 
         
-        <a href="/" title="link to homepage for BOB&#39;s Playground"><img src="/images/favicon.png" width="80" alt="BOB&#39;s Playground logo" class="panel-cover__logo logo" /></a>
+        <a href="/" title="link to homepage for PocketSDK"><img src="/images/favicon.png" width="80" alt="PocketSDK logo" class="panel-cover__logo logo" /></a>
         
 
-        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">BOB&#39;s Playground</a></h1>
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">PocketSDK</a></h1>
 
-        <span class="panel-cover__subtitle panel-subtitle">艰难困苦，玉汝于成。</span>
+        <span class="panel-cover__subtitle panel-subtitle">2015</span>
 
         <hr class="panel-cover__divider" />
         <p class="panel-cover__description">
-          这里是描述信息。
+          千奇网络科技
         </p>
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
 
@@ -80,13 +80,13 @@
 
               
                 
-                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">博客</a></li>
+                <li class="navigation__item"><a href="http://pocket_sdk_server.github.io" title="" class="">Server</a></li>
               
                 
-                <li class="navigation__item"><a href="/about" title="" class="">关于</a></li>
+                <li class="navigation__item"><a href="http://pocket_sdk_ios.github.io" title="" class="">iOS</a></li>
               
                 
-                <li class="navigation__item"><a href="/blogroll" title="" class="">其他</a></li>
+                <li class="navigation__item"><a href="http://pocket_sdk_android.github.io" title="" class="">Android</a></li>
               
 
             </ul>
@@ -138,21 +138,6 @@ classes that you can use:
 
 ------------------------------ -->
 
-<nav class="cover-navigation navigation--social">
-  <ul class="navigation">
-
-
-  <!-- Github -->
-  <li class="navigation__item">
-    <a href="https://github.com/someus/huno" title="Huno on GitHub">
-      <i class='icon icon-social-github'></i>
-      <span class="label">GitHub</span>
-    </a>
-  </li>
-
-  </ul>
-</nav>
-
         </div>
 
       </div>
@@ -173,17 +158,13 @@ classes that you can use:
     
       
       <div class="post-meta">
-        <time datetime="2015-10-13" class="post-meta__date date">2015-10-13</time> &#8226; 
+        <time datetime="2015-10-14" class="post-meta__date date">2015-10-14</time> &#8226; 
 
         <span class="post-meta__tags tags">
 
             <font class="categories">
               
             </font>
-            
-              <font class="tags">
-                <a class="tags-link" href="/tags/github/">github</a>
-              </font>
             
 
         </span>
@@ -196,7 +177,7 @@ classes that you can use:
     <section class="post">
       <p>这是摘要。</p>
 <a id="more"></a>
-<h3 id="一、安装和设置">一、安装和设置</h3><h4 id="安装git">安装git</h4><ol>
+<h2 id="一、安装和设置">一、安装和设置</h2><h3 id="安装git">安装git</h3><ol>
 <li><p>前往 <a href="http://brew.sh" target="_blank" rel="external">homebrew网站</a> 安装homebrew</p>
 <pre><code>ruby <span class="operator">-e</span> <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span>
 </code></pre></li>
@@ -204,14 +185,14 @@ classes that you can use:
 <pre><code>$ <span class="keyword">brew </span>install git
 </code></pre></li>
 </ol>
-<h4 id="设置">设置</h4><ol>
+<h3 id="设置">设置</h3><ol>
 <li><p>设置name和email</p>
 <pre><code>$ git config --global user<span class="class">.name</span> <span class="string">"Your Name"</span>
 $ git config --global user<span class="class">.email</span> <span class="string">"email@example.com"</span>
 </code></pre><p> –global表示所有的Git仓库都会使用这个配置</p>
 </li>
 </ol>
-<h3 id="二、本地Repository">二、本地Repository</h3><ol>
+<h2 id="二、本地Repository">二、本地Repository</h2><ol>
 <li><p>建立一个空目录作为本地repository</p>
 <pre><code><span class="variable">$ </span>mkdir learngit
 <span class="variable">$ </span>cd learngit
@@ -295,7 +276,7 @@ index <span class="number">6</span>de7b8c..<span class="number">2</span>e0c855 <
 </ul>
 </li>
 </ol>
-<h3 id="三、远程Repository">三、远程Repository</h3><ol>
+<h2 id="三、远程Repository">三、远程Repository</h2><ol>
 <li><p>SSH Key</p>
 <p> 如果~目录下没有.ssh文件夹，或其中没有id_rsa或id_rsa.pub文件</p>
 <pre><code><span class="variable">$ </span>ssh-keygen -t rsa -<span class="constant">C </span><span class="string">"youremail@example.com"</span>
@@ -328,7 +309,7 @@ $ git checkout -<span class="tag">b</span> dev origin/dev
 <span class="variable">$ </span>git remote -v
 </code></pre></li>
 </ol>
-<h3 id="四、分支管理">四、分支管理</h3><ol>
+<h2 id="四、分支管理">四、分支管理</h2><ol>
 <li><p>创建dev分支并切换到dev分支</p>
 <pre><code><span class="variable">$ </span>git branch dev
 <span class="variable">$ </span>git checkout dev
